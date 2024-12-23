@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas</title>
+    <style>
+        body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.espaco {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+nav{
+    width: 700px;
+    margin: 50px auto;
+    padding: 0px;
+}
+table {
+    width: 65%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+td {
+    font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+</style>
+
+<script>
+    function ValNome(){
+            if (nome.value.trim() === "") {
+                nome.style.background = "yellow";
+                alert("Preencha o nome da ferramenta!");
+                return false;
+            }
+            else {
+                nome.style.background = "white";
+                return true;
+            }
+                 
+    }
+
+    function ValId(){
+            if (id.value.trim() === "") {
+                id.style.background = "yellow";
+                alert("Preencha o ID da ferramenta!");
+                return false;
+            }
+            else {
+                id.style.background = "white";
+                return true;
+            }
+            
+    }
+
+    function ValPre(){
+            var erro1 = false;
+            if (preco.value.trim() === "") {
+                preco.style.background = "yellow";
+                alert("Preencha o preço da ferramenta!");
+                erro1 = true;
+            }
+            else {
+                preco.style.background = "white";
+                erro1 = false;
+            }
+
+            var erro = false;
+            if (preco.value.trim() === "") {
+                erro = true;
+            }
+            else {
+                if (isNaN(preco.value) === true) {
+                    erro = true;
+                }
+                else {
+                    var nPreco = parseFloat(preco.value);
+                    if (nPreco <= 0.0) {
+                        erro = true;
+                    }
+                    else {
+                        preco.value = nPreco.toFixed(2);
+                    }
+                }
+            }
+            if (erro === true) {
+                preco.style.background = "yellow";
+                alert("O preço unitário deve ser um número maior que zero!");
+            }
+            else {
+                preco.style.background = "white";
+            }
+            return erro || erro1;
+        }
+
+</script>
+</head>
+<body>
+    <nav><a href="Funcionarios.html"><button>Funcionários</button></a>
+        <a href="Agendamentos.html"><button>Agendamentos</button></a>
+        <a href="Clientes.html"><button>Clientes</button></a>
+        <a href="Produto.html"><button>Produtos</button></a>
+        <a href="Fornecedores.html"><button>Fornecedores</button></a>
+        <a href="Ferramentas.html"><button>Ferramentas</button></a>
+    </nav>
+    <div class="container">
+    <h1>Ferramentas</h1>
+    <form>
+        <div class="espaco">
+            <p><label>Nome da Ferramenta: <input type="text" id="nome" name="ferramenta" onblur="ValNome()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>ID: <input type="text" id="id" name="id" onblur="ValId()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>Preço: <input type="text" id="preco" name="preco" onblur="ValPre()"></label></p>
+        </div>
+
+        <button type="submit">Cadastrar</button></p>
+    </form>
+</div>
+<br>
+<h1>Ferramentas</h1>
+        <table border="2">
+                <tr>
+                    <th>Ferramenta</th>
+                    <th>ID</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Rodo</td>
+                    <td>124</td>
+                    <td>R$ 32,00</td>
+                </tr>
+                <tr>
+                    <td>Nivelador</td>
+                    <td>125</td>
+                    <td>R$ 67,00</td>
+                </tr>
+                <tr>
+                    <td>Pá</td>
+                    <td>126</td>
+                    <td>R$ 23.00</td>
+                </tr>
+        </table>
+</body>
+</html>

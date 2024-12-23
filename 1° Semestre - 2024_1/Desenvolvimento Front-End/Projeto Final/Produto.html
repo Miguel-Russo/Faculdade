@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius:20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.espaco {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+nav{
+    width: 700px;
+    margin: 50px auto;
+    padding: 0px;
+}
+table {
+    width: 65%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+td {
+    font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+</style>
+
+<script>
+    function ValPro(){
+            if (prod.value.trim() === "") {
+                prod.style.background = "yellow";
+                alert("Preencha o nome do produto!");
+                return false;
+            }
+            else {
+                prod.style.background = "white";
+                return true;
+            }
+            
+    }
+
+    function ValPre(){
+            var erro1 = false;
+            if (preco.value.trim() === "") {
+                preco.style.background = "yellow";
+                alert("Preencha o preço do produto!");
+                erro1 = true;
+            }
+            else {
+                preco.style.background = "white";
+                erro1 = false;
+            }
+
+            var erro = false;
+            if (preco.value.trim() === "") {
+                erro = true;
+            }
+            else {
+                if (isNaN(preco.value) === true) {
+                    erro = true;
+                }
+                else {
+                    var nPreco = parseFloat(preco.value);
+                    if (nPreco <= 0.0) {
+                        erro = true;
+                    }
+                    else {
+                        preco.value = nPreco.toFixed(2);
+                    }
+                }
+            }
+            if (erro === true) {
+                preco.style.background = "yellow";
+                alert("O preço unitário deve ser um número maior que zero!");
+            }
+            else {
+                preco.style.background = "white";
+            }
+            return erro || erro1;
+        }
+    
+
+    function ValQtd(){
+            var erro1 = false;
+            if (quantidade.value.trim() === "") {
+                quantidade.style.background = "yellow";
+                alert("Preencha a quantidade do produto!");
+                erro1 = true;
+            }
+            
+            else {
+                quantidade.style.background = "white";
+                erro1 = false;
+            }
+
+            var erro = false;
+            if (quantidade.value.trim() === ""){
+            erro = true;
+            }
+            else {
+                if (isNaN(quantidade.value) === true){
+                    erro = true;
+                }
+                else {
+                    var nQtd = parseInt(quantidade.value);
+                    if (nQtd < 1 || nQtd > 999){
+                        erro = true;
+                    }
+                }
+            }
+            if (erro === true) {
+                quantidade.style.background = "yellow";
+                alert("A quantidade deve ser um número entre 1 e 999!");
+            }
+            else {
+                quantidade.style.background = "white";
+            }
+            return erro || erro1;
+    }
+
+    function ValId(){
+            if (id.value.trim() === "") {
+                id.style.background = "yellow";
+                alert("Preencha o ID do produto!");
+                return false;
+            }
+            else {
+                id.style.background = "white";
+                return true;
+            }
+            
+    }
+</script>
+
+</head>
+<body>
+    <nav><a href="Funcionarios.html"><button>Funcionários</button></a>
+        <a href="Agendamentos.html"><button>Agendamentos</button></a>
+        <a href="Clientes.html"><button>Clientes</button></a>
+        <a href="Produto.html"><button>Produtos</button></a>
+        <a href="Fornecedores.html"><button>Fornecedores</button></a>
+        <a href="Ferramentas.html"><button>Ferramentas</button></a>
+    </nav>
+    <div class="container">
+    <h1>Produtos</h1>
+    <form>
+        <div class="espaco">
+            <p><label>Nome do Produto: <input type="text" id="prod" name="prod" onblur="ValPro()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>Preço: <input type="text" id="preco" name="preco" onblur="ValPre()"></label></p>
+        </div>
+        <div class="espaco">
+        <p><label>Quantidade: <input type="text" id="quantidade" name="quantidade" onblur="ValQtd()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>ID: <input type="text" id="id" name="id" onblur="ValId()"></label></p>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+    </div>
+
+    <h1>Produtos</h1>
+        <table border="2">
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>ID</th>
+                </tr>
+                <tr>
+                    <td>Higienizador</td>
+                    <td>R$ 720,00</td>
+                    <td>70</td>
+                    <td>54</td>
+                </tr>
+                <tr>
+                    <td>Inseticida</td>
+                    <td>R$ 89,00</td>
+                    <td>280</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>Saco de Areia</td>
+                    <td>R$ 20,00</td>
+                    <td>590</td>
+                    <td>56</td>
+                </tr>
+        </table>
+</body>
+</html>

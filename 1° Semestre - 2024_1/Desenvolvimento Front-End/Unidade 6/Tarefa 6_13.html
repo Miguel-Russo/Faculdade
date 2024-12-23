@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let cont = 1;
+        let Soma = 0;
+        let Media = 0;
+
+        for (cont = 1; cont <= 3; cont++) {
+            let Nota = Number (prompt("Digite o valor da " + cont + "° nota: "));
+            Soma = Soma + Nota;
+            alert ("O valor da " + cont + "° nota foi: " + Nota);
+            console.log ("O valor da " + cont + "° nota foi: " + Nota);
+        }
+        
+        Media = Soma / 3;
+        alert ("A média aritmética do aluno é: " + Media);
+        console.log ("A média aritmética do aluno é: " + Media);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

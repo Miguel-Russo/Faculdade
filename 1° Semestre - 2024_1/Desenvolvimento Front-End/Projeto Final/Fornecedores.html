@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornecedores</title>
+    <style>
+        body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.espaco {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+nav{
+    width: 700px;
+    margin: 50px auto;
+    padding: 0px;
+}
+table {
+    width: 65%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+td {
+    font-size: 1.1rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+</style>
+
+<script>
+    function ValNome(){
+            if (nome.value.trim() === "") {
+                nome.style.background = "yellow";
+                alert("Preencha o nome do fornecedor!");
+                return false;
+            }
+            else {
+                nome.style.background = "white";
+                return true;
+            }
+                 
+    }
+
+    function ValCnpj(){
+            if (cnpj.value.trim() === "") {
+                cnpj.style.background = "yellow";
+                alert("Preencha o CNPJ do fornecedor!");
+                return false;
+            }
+            else {
+                cnpj.style.background = "white";
+                return true;
+            }
+            
+    }
+
+    function ValEmail(){
+            if (email.value.trim() === "") {
+                email.style.background = "yellow";
+                alert("Preencha o E-mail do fornecedor!");
+                return false;
+            }
+            else {
+                email.style.background = "white";
+                return true;
+            }
+            
+    }
+
+    function ValTel(){
+            if (tel.value.trim() === "") {
+                tel.style.background = "yellow";
+                alert("Preencha o telefone do fornecedor!");
+                return false;
+            }
+            else {
+                tel.style.background = "white";
+                return true;
+            }
+            
+    }
+</script>
+</head>
+<body>
+    <nav><a href="Funcionarios.html"><button>Funcionários</button></a>
+        <a href="Agendamentos.html"><button>Agendamentos</button></a>
+        <a href="Clientes.html"><button>Clientes</button></a>
+        <a href="Produto.html"><button>Produtos</button></a>
+        <a href="Fornecedores.html"><button>Fornecedores</button></a>
+        <a href="Ferramentas.html"><button>Ferramentas</button></a>
+    </nav>
+    <div class="container">
+    <h1>Fornecedores</h1>
+    <form>
+        <div class="espaco">
+            <p><label>Nome: <input type="text" id="nome" name="nome" onblur="ValNome()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>CNPJ: <input type="text" id="cnpj" name="cnpj" onblur="ValCnpj()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>E-mail: <input type="email" id="email" name="email" onblur="ValEmail()"></label></p>
+        </div>
+        <div class="espaco">
+            <p><label>Telefone: <input type="tel" id="tel" name="telefone" onblur="ValTel()"></label></p>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
+
+<h1>Fornecedores</h1>
+        <table border="2">
+                <tr>
+                    <th style="width: 200px;">Empresa</th>
+                    <th style="width: 150px;">CNPJ</th>
+                    <th style="width: 300px;">E-mail</th>
+                    <th style="width: 150px;">Telefone</th>
+                </tr>
+                <tr>
+                    <td>Carioca Ferramentas</td>
+                    <td>12.345.678/0001-99</td>
+                    <td>cariocaferramentas@gmail.com</td>
+                    <td>(11) 91234-5678</td>
+                </tr>
+                <tr>
+                    <td>Casa de Material Russo's</td>
+                    <td>98.765.432/0001-11</td>
+                    <td>casadematerialrusso@gmail.com</td>
+                    <td>(21) 99876-5432</td>
+                </tr>
+                <tr>
+                    <td>Mello Soluções</td>
+                    <td>73.182.681/0001-54</td>
+                    <td>mellosolucoes@gmail.com</td>
+                    <td>(31) 92345-6789</td>
+                </tr>
+        </table>
+</body>
+</html>
