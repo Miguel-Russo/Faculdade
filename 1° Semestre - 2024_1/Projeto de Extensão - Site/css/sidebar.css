@@ -1,0 +1,47 @@
+#sidebar img{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 17px;
+    display: flex;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1rem;
+    height: 4rem;
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .active {
+    background-color: black;
+    color: white;
+  }
+
+  .icon{
+    max-width: 50rem;
+  }

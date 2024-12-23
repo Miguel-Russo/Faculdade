@@ -1,0 +1,36 @@
+nav > img {
+    max-width: 2rem;
+    max-height: 2rem;
+    margin-left: 1rem;
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    padding:1rem;
+    align-items:center;
+    
+    position:fixed;
+    width:100%;
+    z-index: 99;
+}
+
+nav > #links{
+    display:flex;
+    gap:3rem;
+    margin: auto 2rem auto auto;
+}
+
+nav > #links > a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    font-weight: 800;
+}
+
+@media all and (max-width: 912px){
+    nav{
+        display: none;
+    }
+}
