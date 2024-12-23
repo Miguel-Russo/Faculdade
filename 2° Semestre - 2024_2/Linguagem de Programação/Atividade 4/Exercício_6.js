@@ -1,0 +1,1 @@
+let Soma = (A, B, C, D) => (A + B+ C+ D)**2;

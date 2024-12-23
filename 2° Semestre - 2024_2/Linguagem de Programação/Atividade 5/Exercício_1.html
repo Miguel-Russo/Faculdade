@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+</head>
+<body>
+    <h1>SOMA</h1>
+    <p><input class="Botao" id="Botao1"></p>
+    <p><input class="Botao" id="Botao2">
+        <button onclick="Somar()">SOMAR</button>
+    </p>
+    <script>
+        function Somar()
+        {
+            let Num1 = parseFloat(document.getElementById("Botao1").value);
+            let Num2 = parseFloat(document.getElementById("Botao2").value);
+
+            let Res = Num1 + Num2;
+            
+            alert ("A soma é: " + Res);
+        }
+    </script>
+</body>
+</html>

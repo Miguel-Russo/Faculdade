@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome - </th>
+                <th>Altura (m) - </th>
+                <th>Peso (kg) - </th>
+                <th>IMC</th>
+                <th></th> </tr>
+        </thead>
+        <tbody id="tabela-corpo">
+        </tbody>
+    </table>
+    <br>
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="number" id="altura" placeholder="Altura">
+    <input type="number" id="peso" placeholder="Peso">   
+
+    <button onclick="adicionarPessoa()">Adicionar</button>
+    <button onclick="limparTabela()">Limpar Tabela</button>
+
+<script>
+    function adicionarPessoa() {
+    const nome = document.getElementById('nome').value;
+    const altura = parseFloat(document.getElementById('altura').value);
+    const peso = parseFloat(document.getElementById('peso').value);   
+
+
+    if (nome && altura && peso) {
+        const imc = peso / (altura * altura);
+        const novaLinha = document.createElement('tr');
+        novaLinha.innerHTML = `
+            <td>${nome}</td>
+            <td>${altura}</td>
+            <td>${peso}</td>
+            <td>${imc.toFixed(2)}</td>
+            <td><button onclick="removerLinha(this)">Remover</button></td>
+        `;
+        document.getElementById('tabela-corpo').appendChild(novaLinha);
+
+        document.getElementById('nome').value = '';
+        document.getElementById('altura').value = '';
+        document.getElementById('peso').value = '';
+    } else {
+        alert('Por favor, preencha todos os campos.');
+    }
+}
+
+function removerLinha(botao) {
+    botao.parentNode.parentNode.remove();
+}
+
+function limparTabela() {
+    document.getElementById('tabela-corpo').innerHTML = '';
+}
+</script>
+
+
+</body>
+</html>

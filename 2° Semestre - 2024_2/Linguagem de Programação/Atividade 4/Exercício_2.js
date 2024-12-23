@@ -1,0 +1,1 @@
+let multiplicar = function(X){return X*42;};
