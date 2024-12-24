@@ -6,7 +6,7 @@ Cada problema é descrito abaixo com sua entrada, saída e link para o código c
 
 ---
 
-## 📄 Lista de Problemas  
+## 📄 Lista de Problemas - Algoritmos Sequenciais
 
 ### 1000 - Hello World!  
 **Descrição:**  
