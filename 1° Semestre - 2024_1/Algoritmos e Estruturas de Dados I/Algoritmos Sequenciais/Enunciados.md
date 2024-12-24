@@ -26,7 +26,7 @@ Leia dois números inteiros, calcule sua soma e imprima no formato especificado.
 - **Entrada:** Contém dois números inteiros.  
 - **Saída:** Imprima "X = " seguido do resultado e uma quebra de linha.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1001-extremamente-basico.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1001-extremamente-basico.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1001%20-%20Extremamente%20B%C3%A1sico.c))  
 
 ---
 
@@ -37,7 +37,7 @@ Calcule a área de um círculo utilizando a fórmula `area = π . raio²`, com �
 - **Entrada:** Um número de ponto flutuante (raio).  
 - **Saída:** Imprima "A=" seguido da área com 4 casas decimais.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1002-area-do-circulo.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1002-area-do-circulo.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1002%20-%20%C3%81rea%20do%20C%C3%ADrculo.c))  
 
 ---
 
@@ -48,7 +48,7 @@ Leia dois números inteiros, calcule sua soma e atribua o resultado à variável
 - **Entrada:** Dois números inteiros.  
 - **Saída:** Imprima "SOMA = " seguido do resultado e uma quebra de linha.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1003-soma-simples.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1003-soma-simples.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1003%20-%20Soma%20Simples.c))  
 
 ---
 
@@ -59,7 +59,7 @@ Calcule o produto de dois números inteiros e atribua à variável PROD.
 - **Entrada:** Dois números inteiros.  
 - **Saída:** Imprima "PROD = " seguido do resultado.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1004-produto-simples.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1004-produto-simples.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1004%20-%20Produto%20Simples.c))  
 
 ---
 
@@ -70,7 +70,7 @@ Calcule a média ponderada de dois números, com pesos 3.5 e 7.5.
 - **Entrada:** Dois números de ponto flutuante com uma casa decimal.  
 - **Saída:** Imprima "MEDIA = " seguido da média com 5 casas decimais.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1005-media-1.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1005-media-1.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1005%20-%20M%C3%A9dia%201.c))  
 
 ---
 
@@ -81,7 +81,7 @@ Calcule a diferença entre os produtos de dois pares de números.
 - **Entrada:** Quatro números inteiros.  
 - **Saída:** Imprima "DIFERENCA = " seguido do resultado.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1007-diferenca.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1007-diferenca.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1007%20-%20Diferen%C3%A7a.c))  
 
 ---
 
@@ -92,7 +92,7 @@ Calcule o salário final de um vendedor com base no salário fixo e comissão de
 - **Entrada:** Nome, salário fixo e valor das vendas.  
 - **Saída:** Imprima o salário total com duas casas decimais.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1009-salario-com-bonus.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1009-salario-com-bonus.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1009%20-%20Sal%C3%A1rio%20com%20B%C3%B4nus.c))  
 
 ---
 
@@ -103,7 +103,7 @@ Calcule o tempo necessário para que um carro alcance outro com velocidades cons
 - **Entrada:** Um número inteiro representando a distância.  
 - **Saída:** Imprima o tempo em minutos.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1016-distancia.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1016-distancia.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1016%20-%20Dist%C3%A2ncia.c))  
 
 ---
 
@@ -114,7 +114,7 @@ Converta um valor em segundos para o formato horas:minutos:segundos.
 - **Entrada:** Um número inteiro representando o tempo em segundos.  
 - **Saída:** Imprima o tempo no formato especificado.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1019-conversao-de-tempo.cpp)  
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1019-conversao-de-tempo.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1019%20-%20Convers%C3%A3o%20de%20Tempo.c))  
 
 ---
 
@@ -125,4 +125,4 @@ Converta a idade de uma pessoa, em dias, para anos, meses e dias.
 - **Entrada:** Um número inteiro.  
 - **Saída:** Imprima a idade no formato especificado.  
 
-🔗 [Código](https://github.com/seu-usuario/seu-repositorio/blob/main/1020-idade-em-dias.cpp)
+🔗 [Código]([https://github.com/seu-usuario/seu-repositorio/blob/main/1020-idade-em-dias.cpp](https://github.com/Miguel-Russo/Faculdade/blob/main/1%C2%B0%20Semestre%20-%202024_1/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Algoritmos%20Sequenciais/1020%20-%20Idade%20em%20Dias.c))
