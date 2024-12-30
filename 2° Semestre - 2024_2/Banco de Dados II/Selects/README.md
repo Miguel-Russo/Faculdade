@@ -1,4 +1,4 @@
-# 🖥️ Beecrowd - Problemas Resolvidos  
+# 🗄️ Beecrowd - Problemas Resolvidos  
 
 Bem-vindo(a)! Este repositório contém soluções para diversos problemas da plataforma Beecrowd, organizados por número e descrição.  
 
