@@ -1,4 +1,4 @@
-# 🗄️ Procedures - Problemas Resolvidos  
+# 🗄️ Triggers - Problemas Resolvidos  
 
 Bem-vindo(a)! Este repositório contém soluções para diversos problemas de Trigger, organizados por número e descrição.  
 
