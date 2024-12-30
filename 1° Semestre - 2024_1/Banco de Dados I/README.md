@@ -1,6 +1,6 @@
-# 🗄️ Banco de Dados - Produto Final 
+# 🗄️ Banco de Dados I - Produto Final 
 
-Bem-vindo(a)! Este repositório contém a solução completa do produto final de banco de dados e sua descrição detalhada.
+Bem-vindo(a)! Este repositório contém a solução completa do Produto Final de Banco de Dados I e sua descrição detalhada.
 
 O projeto está descrito abaixo com informações sobre o objetivo, estrutura, implementação e link para o código correspondente.  
 
