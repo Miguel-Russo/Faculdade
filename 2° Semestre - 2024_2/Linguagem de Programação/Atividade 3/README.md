@@ -90,7 +90,7 @@ Cada problema inclui um link direto para o código correspondente.
 ### Exercício 8  
 **Descrição:**  
 
-Escreva um programa (script) que soma todos os números entre -42 e 7 inclusive. Use um laço for em uma implementação e um laço while em outra. 
+-   Escreva um programa (script) que soma todos os números entre -42 e 7 inclusive. Use um laço for em uma implementação e um laço while em outra. 
 
 🔗 [Código](https://github.com/Miguel-Russo/Faculdade/blob/main/2%C2%B0%20Semestre%20-%202024_2/Linguagem%20de%20Programa%C3%A7%C3%A3o/Atividade%203/Exerc%C3%ADcio%208.js)  
 
