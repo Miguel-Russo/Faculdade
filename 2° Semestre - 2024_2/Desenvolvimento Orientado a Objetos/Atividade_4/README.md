@@ -10,7 +10,7 @@ Cada problema inclui um link direto para o código correspondente.
   
 **Descrição:**
 
-Criar uma classe Java chamada Aluno para modelar estudantes. A classe deve possuir os seguintes
+Criar uma classe Java chamada ```Aluno``` para modelar estudantes. A classe deve possuir os seguintes
 atributos de dados (propriedades):
 
 nome – Nome do estudante - (tipo String)
@@ -27,16 +27,16 @@ nota_P2 – (double)
 
 nota_P3 – (double)
 
-A classe deve conter métodos para construir objetos e um método ImprimeAluno() que irá imprimir os
-dados do estudante. Adicionalmente a classe deve conter um método chamado ImprimeSexo() que irá
+A classe deve conter métodos para construir objetos e um método ```ImprimeAluno()``` que irá imprimir os
+dados do estudante. Adicionalmente a classe deve conter um método chamado ```ImprimeSexo()``` que irá
 imprimir “Masculino” se o sexo for ‘M’ e “Feminino” se o sexo for ‘F’.
 
-A função ImprimeSexo() também imprime o nome do estudante.
+A função ```ImprimeSexo()``` também imprime o nome do estudante.
 
-Codificar também a função MediaAluno() que retorna a média aritmética das duas maiores notas dentre as
+Codificar também a função ```MediaAluno()``` que retorna a média aritmética das duas maiores notas dentre as
 notas P1, P2 e P3. (Exemplo: notas 2, 6 e 8 => considerar para a média as notas 6 e 8)
 
-Finalmente, codificar a função Resultado() que retorna “Aprovado” se a média for >= 6.0 ou “Reprovado”
+Finalmente, codificar a função ```Resultado()``` que retorna “Aprovado” se a média for >= 6.0 ou “Reprovado”
 se a média for inferior a 6.0.
 
 ---
@@ -46,10 +46,10 @@ Na main criar um objeto referenciado pela variável X1 por meio do construtor co
 Criar um segundo objeto referenciado pela variável X2 por meio do construtor com os parâmetros: nome =
 “Ana”, codmat = 991239, cpf=”500876123-15” , sexo = ‘F’, nota_P1 = 2.0, nota_P2=6.0 e nota_P3=9.0.
 
-Para cada objeto chamar a função ImprimeAluno() para imprimir os dados dos dois objetos criados, e as
-funções Media_Aluno() e Resultado().
+Para cada objeto chamar a função ```ImprimeAluno()``` para imprimir os dados dos dois objetos criados, e as
+funções ```Media_Aluno()``` e ```Resultado()```.
 
-Executar para cada objeto criado a função ImprimeSexo().
+Executar para cada objeto criado a função ```ImprimeSexo()```.
 
 ---
 
