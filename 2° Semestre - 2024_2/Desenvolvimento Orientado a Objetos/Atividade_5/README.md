@@ -42,7 +42,7 @@ Calcular e exibir a média final do aluno.
 
 ---
 
-Caso o aluno tire média inferior a 3, deverá ser notificado como “Reprovado”
+Caso o aluno tire média inferior a 3, deverá ser notificado como “Reprovado”.
 
 ---
 
