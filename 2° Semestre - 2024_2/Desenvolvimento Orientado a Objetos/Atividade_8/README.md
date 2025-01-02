@@ -1,12 +1,12 @@
-# ☕ Desenvolvimento Orientado a Objetos - Atividade 2
+# ☕ Desenvolvimento Orientado a Objetos - Atividade 8
 
-Bem-vindo(a)! Este repositório contém a solução para a Atividade 2 de Desenvolvimento Orientado a Objetos em Java, acompanhada de sua descrição.  
+Bem-vindo(a)! Este repositório contém a solução para a Atividade 8 de Desenvolvimento Orientado a Objetos em Java, acompanhada de sua descrição.  
 
 Cada problema inclui um link direto para o código correspondente. 
 
 ---
 
-## 📄 Java - Atividade 2
+## 📄 Java - Atividade 8
   
 **Descrição:**
 
