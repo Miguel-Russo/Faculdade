@@ -28,7 +28,7 @@ Este programa implementa um sistema para gerenciamento de livros em uma bibliote
 
 -  Polimorfismo Estático:
 
-    -  A classe Biblioteca implementa sobrecarga do método calcularMulta() para calcular multas de diferentes formas:
+    -  A classe Biblioteca implementa sobrecarga do método ```calcularMulta()``` para calcular multas de diferentes formas:
 
         Por número de dias atrasados.
 
