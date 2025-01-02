@@ -14,7 +14,7 @@ O programa simula um sistema de gerenciamento de funcionários em uma empresa, u
 
 ---
 
--  Funcionalidades:
+-  **Funcionalidades:**
 
     -  Modelo Abstrato:
 
@@ -22,7 +22,7 @@ O programa simula um sistema de gerenciamento de funcionários em uma empresa, u
 
 ---
 
--  Subclasses Especializadas:
+-  **Subclasses Especializadas:**
 
     -  FuncionarioHorista: Representa funcionários pagos por hora, com atributos para horas trabalhadas e valor por hora.
 
@@ -30,19 +30,19 @@ O programa simula um sistema de gerenciamento de funcionários em uma empresa, u
 
 ---
 
--  Cálculo de Salários:
+-  **Cálculo de Salários:**
 
     -  Cada tipo de funcionário calcula o salário de acordo com sua modalidade de pagamento.
 
 ---
 
--  Exibição de Detalhes:
+-  **Exibição de Detalhes:**
 
     -  O método exibirDetalhes exibe o nome, cargo e salário do funcionário, utilizando a implementação de calcularSalario definida em cada subclass.
 
 ---
 
--  Instruções de Uso:
+-  **Instruções de Uso:**
 
     -  O programa cria dois tipos de funcionários:
 
