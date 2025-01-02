@@ -10,7 +10,7 @@ Cada problema inclui um link direto para o código correspondente.
   
 **Descrição:**
 
-O programa é um exemplo prático de herança e polimorfismo em Java. Ele simula um sistema de gerenciamento de veículos, incluindo carros e motos, destacando a reutilização de código através de uma classe base (Veiculo) e classes derivadas (Carro e Moto).
+O programa é um exemplo prático de herança e polimorfismo em Java. Ele simula um sistema de gerenciamento de veículos, incluindo carros e motos, destacando a reutilização de código através de uma classe base ```Veiculo``` e classes derivadas ```Carro``` e ```Moto```.
 
 ---
 
@@ -18,7 +18,7 @@ O programa é um exemplo prático de herança e polimorfismo em Java. Ele simula
 
 Criação de Veículos:
 
-Criação de objetos do tipo Carro e Moto, com atributos específicos para cada tipo de veículo.
+Criação de objetos do tipo ```Carro``` e ```Moto```, com atributos específicos para cada tipo de veículo.
 
 ---
 
@@ -32,23 +32,23 @@ Validação de entrada para o atributo ano, garantindo valores razoáveis.
 
 **Herança:**
 
-A classe Carro e a classe Moto herdam atributos e métodos da classe Veiculo.
+A classe ```Carro``` e a classe ```Moto``` herdam atributos e métodos da classe ```Veiculo```.
 
 ---
 
 **Polimorfismo:**
 
-Métodos sobrescritos (exibirDetalhes) nas subclasses para exibir informações específicas de cada tipo de veículo.
+Métodos sobrescritos ```exibirDetalhes()``` nas subclasses para exibir informações específicas de cada tipo de veículo.
 
 ---
 
 **Instruções de Uso:**
 
-O programa inicializa objetos do tipo Carro e Moto com atributos fornecidos.
+O programa inicializa objetos do tipo ```Carro``` e ```Moto``` com atributos fornecidos.
 
 Ele exibe os detalhes dos veículos, modifica valores usando setters e valida entradas inadequadas.
 
-O método exibirDetalhes é chamado para mostrar informações detalhadas, aproveitando a sobrecarga para adaptar a saída ao tipo do veículo.
+O método ```exibirDetalhes()``` é chamado para mostrar informações detalhadas, aproveitando a sobrecarga para adaptar a saída ao tipo do veículo.
 
 ---
 
