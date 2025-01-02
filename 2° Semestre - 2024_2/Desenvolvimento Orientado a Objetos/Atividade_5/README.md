@@ -15,7 +15,7 @@ notas e um bônus de desempenho.
 
 O programa deve seguir os seguintes requisitos:
 
-Crie uma classe chamada Aluno com os seguintes atributos:
+Crie uma classe chamada ```Aluno``` com os seguintes atributos:
    
 a. nome (String)
 
@@ -27,14 +27,14 @@ d. nota3 (double)
 
 ---
 
-Na classe Aluno, crie um método para calcular a média de 3 números. Caso o resultado for
+Na classe ```Aluno```, crie um método para calcular a média de 3 números. Caso o resultado for
 maior que 7, faça adicione mais 10% nessa nota final.
 
 ---
 
 No método main, você deverá:
 
-Criar uma instância da classe Aluno.
+Criar uma instância da classe ```Aluno```.
 
 Solicitar ao usuário que insira o nome do aluno e suas três notas.
 
