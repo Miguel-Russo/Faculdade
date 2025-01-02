@@ -10,7 +10,7 @@ Cada problema inclui um link direto para o código correspondente.
   
 **Descrição:**
 
-Este programa implementa uma calculadora básica em Java, permitindo que o usuário escolha entre quatro operações matemáticas (soma, subtração, multiplicação e divisão). Ele é composto por duas classes principais: Atividade_3 e Calcular. O programa é interativo e utiliza um loop para oferecer a opção de realizar múltiplas operações até que o usuário decida encerrar.
+Este programa implementa uma calculadora básica em Java, permitindo que o usuário escolha entre quatro operações matemáticas (soma, subtração, multiplicação e divisão). Ele é composto por duas classes principais: ```Atividade_3``` e ```Calcular```. O programa é interativo e utiliza um loop para oferecer a opção de realizar múltiplas operações até que o usuário decida encerrar.
 
 ---
 
