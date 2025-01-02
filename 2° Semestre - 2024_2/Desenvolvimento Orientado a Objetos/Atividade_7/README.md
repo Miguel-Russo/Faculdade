@@ -18,15 +18,15 @@ O programa simula um sistema de gerenciamento de funcionários em uma empresa, u
 
     -  Modelo Abstrato:
 
-        A classe abstrata Funcionario define os atributos e comportamentos comuns a todos os tipos de funcionários, incluindo um método abstrato calcularSalario() para ser implementado pelas subclasses.
+        A classe abstrata ```Funcionario``` define os atributos e comportamentos comuns a todos os tipos de funcionários, incluindo um método abstrato ```calcularSalario()``` para ser implementado pelas subclasses.
 
 ---
 
 -  **Subclasses Especializadas:**
 
-    -  FuncionarioHorista: Representa funcionários pagos por hora, com atributos para horas trabalhadas e valor por hora.
+    -  ```FuncionarioHorista:``` Representa funcionários pagos por hora, com atributos para horas trabalhadas e valor por hora.
 
-    -  FuncionarioAssalariado: Representa funcionários com salário fixo mensal.
+    -  ```FuncionarioAssalariado:``` Representa funcionários com salário fixo mensal.
 
 ---
 
@@ -38,7 +38,7 @@ O programa simula um sistema de gerenciamento de funcionários em uma empresa, u
 
 -  **Exibição de Detalhes:**
 
-    -  O método exibirDetalhes exibe o nome, cargo e salário do funcionário, utilizando a implementação de calcularSalario definida em cada subclass.
+    -  O método ```exibirDetalhes()``` exibe o nome, cargo e salário do funcionário, utilizando a implementação de calcularSalario definida em cada subclass.
 
 ---
 
