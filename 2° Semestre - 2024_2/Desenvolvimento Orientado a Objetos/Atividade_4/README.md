@@ -51,4 +51,6 @@ funções Media_Aluno() e Resultado().
 
 Executar para cada objeto criado a função ImprimeSexo().
 
+---
+
 🔗 [Código](https://github.com/Miguel-Russo/Faculdade/tree/main/2%C2%B0%20Semestre%20-%202024_2/Desenvolvimento%20Orientado%20a%20Objetos/Atividade_4)
