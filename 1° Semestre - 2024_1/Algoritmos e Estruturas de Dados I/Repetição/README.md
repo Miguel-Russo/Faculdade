@@ -1,6 +1,6 @@
 # 🖥️ Beecrowd - Problemas Resolvidos  
 
-Bem-vindo(a)! Este repositório contém soluções para diversos problemas da plataforma Beecrowd, organizados por número e descrição.  
+Bem-vindo(a)! Este repositório contém soluções para diversos problemas da plataforma Beecrowd em linguagem C, organizados por número e descrição.  
 
 Cada problema é descrito abaixo com sua entrada, saída e link para o código correspondente.  
 
